@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examform</title>
+</head>
+<body>
+    <h1>Event Registration Form</h1><br>
+    <fieldset><legend=>Personal Information</legend>
+    <label for="name">
+        Full Name:
+        <input type="text" id="name">
+    </label><br>
+    <label for="mail">
+        Email:
+        <input type="email" id="mail">
+    </label><br><br>
+    <label for="phone">
+        Phone Number:
+        <input type="tel" name="phone" id="phone">
+    </label></fieldset>
+    <fieldset><legend>Gender</legend>
+    <label for="gender">
+        <input type="radio" name="gender" id="gender">Male<br>
+        <input type="radio" name="gender" id="gender">Female<br>
+        <input type="radio" name="gender" id="gender">Other<br>
+    </label></fieldset>
+    <fieldset><legend>Event Selection</legend>
+    <label for="select">
+         Select Event:
+        <select name="select" id="select">
+            <option value="Annual Conference">Annual Conference</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Networking Event">Networking Event</option>
+        </select>
+    </label></fieldset>
+    <fieldset><legend>Additional Comments</legend>
+    <label for="text">Comments:<br>
+        <textarea name="text" id="text" placeholder="Enter any additional information....." rows="10"cols="30" ></textarea>
+    </label></fieldset><br><br>
+    <button>Register</button>
+</body>
+</html>
